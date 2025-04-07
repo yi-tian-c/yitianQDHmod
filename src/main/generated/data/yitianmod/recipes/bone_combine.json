@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "yitianmod:bone_axe"
+    },
+    {
+      "item": "yitianmod:bone_shovel"
+    },
+    {
+      "item": "yitianmod:bone_sword"
+    },
+    {
+      "item": "yitianmod:bone_pickaxe"
+    }
+  ],
+  "result": {
+    "item": "yitianmod:bone_combine"
+  }
+}

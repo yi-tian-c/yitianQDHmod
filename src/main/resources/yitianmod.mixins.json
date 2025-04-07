@@ -1,0 +1,29 @@
+{
+  "required": true,
+  "package": "com.yi_tian.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ExampleMixin",
+    "FireBallMixin",
+    "FlyingEntityMixin",
+    "GhastEntityMixin",
+    "IronGolemEntityMixin2",
+    "ItemMixin",
+    "LivingEntityMixin",
+    "MeleeAttackGoalAccessor",
+    "MeleeAttackGoalMixin",
+    "MobEntityMixin",
+    "PersistentProjectileEntityAccessor",
+    "PersistentProjectileEntityMixin",
+    "SnowBallEntityMixin",
+    "SnowGolemEntityAccessor",
+    "SnowGolemEntityMixin",
+    "WardenEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "GhastEntityRendererMixin"
+  ]
+}
